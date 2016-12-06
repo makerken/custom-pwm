@@ -1,0 +1,7 @@
+{
+  "name": "custom-pwm",
+  "author": "Ken Kaiser <admin@makerken.com>",
+  "license": "MIT",
+  "version": "0.0.1",
+  "description": "Abstracting the 6.0.0 analogWrite functions"
+}
