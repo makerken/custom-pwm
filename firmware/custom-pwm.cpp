@@ -1,4 +1,4 @@
-#include "custom-pwm.h"
+#include "custom-pwm/custom-pwm.h"
 
 void PWM::init(void) {
   pinMode(_pin, OUTPUT); 
