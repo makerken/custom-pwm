@@ -19,7 +19,7 @@
 
 #include "Particle.h"
 
-class CustomPwm{
+class CustomPwm {
 public:
   CustomPwm(uint8_t pin, uint8_t resolution, uint16_t frequency) {
     _pin = pin;
