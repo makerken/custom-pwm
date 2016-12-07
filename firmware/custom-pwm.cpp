@@ -11,7 +11,4 @@ void PWM::out(uint32_t value) {
 
 uint16_t PWM::MaxFreq(void){
   return analogWriteMaxFrequency(_pin);
-<<<<<<< HEAD
-}
-=======
 }
