@@ -17,13 +17,13 @@ void loop() {
   
   for(pos = 0; pos < 2048; pos += 11)  // increment about a degree each time
   {
-    digitalServo.out(pos);             // e.g. 451/4096 = 11%, 2048/4096 = 50%
+    digitalServo.write(pos);             // e.g. 451/4096 = 11%, 2048/4096 = 50%
     delay(15);                         // waits 15ms for the servo to reach the position
   }
   
   for(pos = 2048; pos > 11; pos -= 11)  // decrement about a degree each time
   {
-    digitalServo.out(pos);
+    digitalServo.write(pos);
     delay(15);
   }
   

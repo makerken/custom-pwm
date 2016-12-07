@@ -27,7 +27,7 @@ public:
     _frequency = frequency;
   }
   void init(void);
-  void out(uint32_t);
+  void write(uint32_t);
   uint16_t MaxFreq(void);
     
 private:

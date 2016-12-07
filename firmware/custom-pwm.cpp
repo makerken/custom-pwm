@@ -5,7 +5,7 @@ void CustomPwm::init(void) {
   analogWriteResolution(_pin, _resolution);
 }
 
-void CustomPwm::out(uint32_t value) {
+void CustomPwm::write(uint32_t value) {
   analogWrite(_pin, value, _frequency); // 3000/4095 = ~73% duty cycle at 1kHz
 }
 
