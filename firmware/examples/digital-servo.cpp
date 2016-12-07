@@ -5,6 +5,8 @@
 
 CustomPwm digitalServo = CustomPwm(D1, RESOLUTION, FREQUENCY);
 
+int pos = 0;
+
 void setup() {
   
   digitalServo.init();
