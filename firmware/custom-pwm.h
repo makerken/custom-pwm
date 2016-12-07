@@ -34,4 +34,8 @@ private:
   uint8_t _pin;
   uint8_t _resolution;
   uint16_t _frequency;
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> c9edd2649c45ae75a25f843aed1865cea9a98fa7
