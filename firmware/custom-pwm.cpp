@@ -15,5 +15,3 @@ uint16_t PWM::MaxFreq(void){
 }
 =======
 }
-
->>>>>>> c9edd2649c45ae75a25f843aed1865cea9a98fa7
