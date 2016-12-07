@@ -19,9 +19,9 @@
 
 #include "Particle.h"
 
-class PWM{
+class CustomPwm{
 public:
-  PWM(uint8_t pin, uint8_t resolution, uint16_t frequency) {
+  CustomPwm(uint8_t pin, uint8_t resolution, uint16_t frequency) {
     _pin = pin;
     _resolution = resolution;
     _frequency = frequency;
