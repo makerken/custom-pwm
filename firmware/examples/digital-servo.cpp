@@ -3,7 +3,7 @@
 #define RESOLUTION  12
 #define FREQUENCY   300
 
-CustomPwm digitalServo = PWM(D1, RESOLUTION, FREQUENCY);
+CustomPwm digitalServo = CustomPwm(D1, RESOLUTION, FREQUENCY);
 
 void setup() {
     
