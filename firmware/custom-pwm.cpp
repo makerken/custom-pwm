@@ -1,6 +1,6 @@
 #include "custom-pwm.h"
 
-void CustomPwm::init(void) {
+void CustomPwm::begin(void) {
   pinMode(_pin, OUTPUT); 
   analogWriteResolution(_pin, _resolution);
 }

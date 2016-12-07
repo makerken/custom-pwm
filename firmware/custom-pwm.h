@@ -26,7 +26,7 @@ public:
     _resolution = resolution;
     _frequency = frequency;
   }
-  void init(void);
+  void begin(void);
   void write(uint32_t);
   uint16_t MaxFreq(void);
     

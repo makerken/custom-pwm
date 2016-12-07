@@ -9,7 +9,7 @@ int pos = 0;
 
 void setup() {
   
-  digitalServo.init();
+  digitalServo.begin();
     
 }
 
